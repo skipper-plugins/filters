@@ -1,0 +1,6 @@
+package: github.com/skipper-plugins/filters
+import:
+- package: github.com/oschwald/maxminddb-golang
+  version: ~1.3.0
+ignore:
+- github.com/zalando/skipper

@@ -1,0 +1,11 @@
+hash: ca9fde7ad35448dfc44b80a34548f6401e76968b1b746d1f80ce4312eaf1d81c
+updated: 2018-03-21T13:54:30.943844509+01:00
+imports:
+- name: github.com/oschwald/maxminddb-golang
+  version: c5bec84d1963260297932a1b7a1753c8420717a7
+- name: golang.org/x/sys
+  version: 739734461d1c916b6c72a63d7efda2b27edb369f
+  subpackages:
+  - unix
+  - windows
+testImports: []

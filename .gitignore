@@ -1,0 +1,5 @@
+build/
+vendor/
+GeoLite2-Country.mmdb
+GeoLite2-Country.tar.gz
+*.so
