@@ -1,5 +1,5 @@
 SOURCES            = $(shell find ./ -type f -name '*.go' | grep -vE './(build|vendor)/' )
-FILTERS           ?= geoip noop
+FILTERS           ?= geoip noop ldapauth
 PLUGINS            = $(shell for t in $(FILTERS); do echo build/filter_$$t.so; done )
 CURRENT_VERSION    = $(shell git tag | sort -V | tail -n1)
 VERSION           ?= $(CURRENT_VERSION)
